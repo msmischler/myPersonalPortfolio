@@ -1,10 +1,19 @@
 /* ----------- Navigation Bar ----------- */
 
 .navbar {
-  background-color: rgb(69, 17, 161);
+  background-color: #9198e5;
 }
 
-.heroContent {
-  background-image: url(./images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
-  background-size: cover;
+/* ----------- Hero Content ----------- */
+
+.header {
+  background: linear-gradient(#9198e5, #e6648d);
+  min-height: 700px;
 }
+
+.header-name {
+  font-size: 80px;
+  
+}
+
+
