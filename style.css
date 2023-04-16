@@ -3,3 +3,8 @@
 .navbar {
   background-color: rgb(69, 17, 161);
 }
+
+.heroContent {
+  background-image: url(./images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+  background-size: cover;
+}
