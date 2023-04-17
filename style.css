@@ -12,11 +12,12 @@
 /* ----------- Hero Content ----------- */
 
 .main-content {
-  background: linear-gradient(#9198e5, #e6648d);
+  background: linear-gradient(#9198e5, #0f080b, #9198e5);
 }
 
 .header {
   min-height: 800px;
+  
 }
 
 .header-name {
@@ -30,10 +31,25 @@
   font-size: 60px;
 }
 
+.portfolio-link:hover {
+  opacity: 0.8;
+}
+
+.img-card {
+  padding-top: calc(1.8 / 3 * 100%);
+  /* portrait aspect ratio */
+  background-size: cover;
+  background-position: center;
+}
+
 /* ----------- About Content ----------- */
 
 .about-header {
   font-size: 60px;
 }
 
+/* ----------- Footer Content ----------- */
 
+.footer {
+  background-color: #9198e5;
+}
